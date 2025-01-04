@@ -1,0 +1,186 @@
+.container{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-weight: 350;
+    color: grey;
+    font-size: 12px;
+}
+
+.downIcon{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.instaPNG{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instaPNG img{
+    width: 230px;
+    height: 90px;
+}
+
+.facebookButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(5, 132, 250);
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+
+.facebookButton h4{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.facebookButton span{
+    color: white;
+    height: 100%;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.orText{
+    margin-top: 28px;
+    color: grey;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+.orText::after{
+    content: "";
+    height: 1px;
+    width: 115px;
+    position: absolute;
+    top: 8px;
+    left: 210px;
+    background-color: rgb(224, 224, 224);
+}
+
+.orText::before{
+    content: "";
+    height: 1px;
+    width: 115px;
+    position: absolute;
+    top: 8px;
+    right: 210px;
+    background-color:  rgb(224, 224, 224);
+}
+
+.formArea{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+
+.formArea form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.formArea form input{
+    width: 95%;
+    height: 24px;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: rgb(199, 199, 199);
+    border-style: solid;
+    border-width: 1px;
+    background: rgb(247, 247, 247);
+}
+
+.formArea form input:focus{
+    outline-color: rgb(224, 224, 224);
+    outline-width: 0px;
+}
+
+.formArea form h3{
+    width: 100%;
+    text-align: end;
+    color: rgb(13, 166, 255);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formArea form button{
+    border: 0;
+    background: rgb(13, 166, 255);
+    padding: 8px;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.formArea form button:disabled{
+    background: rgba(13, 166, 255, 0.747);
+}
+
+.formArea form .passwordContainer{
+    position: relative;
+}
+
+.formArea form .passwordContainer button{
+    position: absolute;
+    top: 3px;
+    font-size: 15px;
+    right: 0;
+    background: transparent;
+    color: black;
+}
+
+.signUpText{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+}
+
+.signUpText span{
+    color: rgb(13, 166, 255);
+    font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid rgb(185, 185, 185);
+    position: absolute;
+    bottom: 0;
+    background: rgb(252, 252, 252);
+    padding-bottom: 12px;
+    padding-top: -5px;
+}
+.footer img{
+    height: 30px;
+    margin-top: -24px;
+}
+.footer h5{
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding: 5px;
+    background: #1b5392;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.image{
+    width: 35px;
+    height: 35px;
+    background: white;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.text{
+    color: rgb(224, 224, 224);
+    font-weight: 650;
+}
