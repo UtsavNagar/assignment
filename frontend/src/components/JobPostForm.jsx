@@ -34,7 +34,7 @@ const JobPostForm = () => {
     const jobTypeOptions = ['Full Time', 'Part Time', 'Internship'];
 
     // Location options
-    const locationOptions = ['Remote', 'Work from Home', 'Hybrid'];
+    const locationOptions = ['Remote', 'Office', 'Hybrid'];
 
     const navigate = useNavigate();  // Initialize useNavigate
 
